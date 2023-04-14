@@ -1,0 +1,82 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+html {
+  min-height: -webkit-fill-available;
+}
+
+#root {
+  flex: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.app,
+.main,
+.devices,
+.device,
+.login {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.flex_row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.app {
+  position: sticky;
+  z-index: 10;
+}
+
+.app-header {
+  background-color: #e3f2fd;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .app {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+  }
+  .link_text {
+    display: none;
+  }
+}
+.flex_devices {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.button_device {
+  text-decoration: none;
+}/*# sourceMappingURL=index.css.map */

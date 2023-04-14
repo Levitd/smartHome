@@ -1,0 +1,21 @@
+.app {
+    position: sticky;
+    z-index: 10;
+}
+
+.app-header {
+    background-color: $bg-color-body;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .app {
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+    }
+
+    .link_text {
+        display: none;
+    }
+}
