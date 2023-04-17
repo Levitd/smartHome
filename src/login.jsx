@@ -1,8 +1,8 @@
 import React from 'react';
-import { activeLink } from './utils/utils_dom';
+// import { activeLink } from './utils/utils_dom';
 
 const Login = () => {
-    activeLink(".nav-link", "login");
+    // activeLink(".nav-link", "login");
     return (
         <div className='login'>
             <h4>

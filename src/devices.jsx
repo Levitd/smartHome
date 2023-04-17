@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { activeLink } from './utils/utils_dom';
+// import { activeLink } from './utils/utils_dom';
 import apiDevices from './api/apiDevices';
 import { Link } from 'react-router-dom';
 
@@ -10,7 +10,7 @@ const Devices = () => {
         apiDevices.fetchAll().then((data) => setUsers(data));
     }, []);
 
-    activeLink(".nav-link", "devices");
+    // activeLink(".nav-link", "devices");
 
     if (devices.length > 0) {
         return (
