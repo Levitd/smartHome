@@ -36,10 +36,17 @@ h6 {
 .devices,
 .device,
 .login {
-  max-width: 1440px;
+  max-width: 1024px;
   margin: 0 auto;
   padding-left: 1%;
   padding-right: 1%;
+}
+
+.main,
+.devices,
+.device,
+.login {
+  margin-top: 1vh;
 }
 
 .flex_row {

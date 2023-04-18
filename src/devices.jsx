@@ -19,7 +19,7 @@ const Devices = () => {
                     <h4><div className='alert alert-info'>Ваши Устройства</div></h4>
                     <div className='flex_devices'>
                         {devices.map((el) => {
-                            return (<button type="button" className='btn btn-info'><Link className='button_device' key={`device${el.id}`} to={`/device/${el.id}`}>{el.name}</Link></button>);
+                            return (<button key={el.id} type="button" className='btn btn-info'><Link className='button_device' key={`device${el.id}`} to={`/device/${el.id}`}>{el.name}</Link></button>);
                         })}
                     </div>
                 </div>
