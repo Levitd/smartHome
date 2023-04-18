@@ -32,12 +32,15 @@ h6 {
   margin: 0;
 }
 
+$bg-color-body: #e3f2fd;
+$max-width-site: 1440px;
+
 .app,
 .main,
 .devices,
 .device,
 .login {
-  max-width: 1440px;
+  max-width: $max-width-site;
   margin: 0 auto;
   padding-left: 1%;
   padding-right: 1%;
@@ -50,7 +53,7 @@ h6 {
   gap: 10px;
 }
 
-$bg-color-body: #e3f2fd;
+
 
 @import "./_header.scss";
 @import "./devices";
