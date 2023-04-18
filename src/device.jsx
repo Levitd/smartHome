@@ -9,9 +9,7 @@ const Device = () => {
     console.log(id, params);
     return (
         <div className='device'>
-            <h4>
-                <div key={`dev${id}`} className='alert alert-info'>Устройство {id}</div>
-            </h4>
+            <div key={`dev${id}`} className='alert alert-info _h4'>Устройство {id}</div>
         </div>
     );
 }

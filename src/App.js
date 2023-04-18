@@ -15,12 +15,14 @@ function App() {
   return (<>
     <BrowserRouter>
       <Header />
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="devices" element={<Devices />} />
-        <Route path="device/:id" element={<Device />} />
-        <Route path="login" element={<Login />} />
-      </Routes>
+      <div className="page_link">
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="devices" element={<Devices />} />
+          <Route path="device/:id" element={<Device />} />
+          <Route path="login" element={<Login />} />
+        </Routes>
+      </div>
     </BrowserRouter>
   </>);
 }
