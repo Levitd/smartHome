@@ -37,10 +37,12 @@ $max-width-site: 1024px;
 $bg-page_link: #cff4fc;
 $media_mobile_with: 768px;
 $color_text_header_page: #055160;
+$color_button_device: #191616;
+// #191616;
 
 ._h4 {
   color: $color_text_header_page;
-  font-size: 24px;
+  font-size: 1.25rem;
   font-weight: 500;
   padding: 2%;
 }

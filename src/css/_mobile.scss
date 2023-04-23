@@ -1,10 +1,10 @@
 @media screen and (max-width: $media_mobile_with) {
     ._h4 {
-        font-size: calc(1.25rem);
+        font-size: calc(20px);
     }
 
     ._h6 {
-        font-size: calc(.8rem);
+        font-size: calc(16px);
     }
 
     .app {
@@ -15,5 +15,15 @@
 
     .link_text {
         display: none;
+    }
+
+    .flex_devices {
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+
+    .button_device,
+    .button_device_item {
+        width: 100%;
     }
 }

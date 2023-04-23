@@ -3,9 +3,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     gap: 10px;
 }
 
 .button_device {
     text-decoration: none;
+    color: $color_button_device;
 }

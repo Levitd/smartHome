@@ -25,7 +25,7 @@ const Header = () => {
                                         ({ isActive }) =>
                                             isActive ? "nav-link active" : "nav-link"
                                     }
-                                    to="devices" id="devices"><div className='flex_row'><h4><i className="bi bi-device-ssd"></i></h4><span className='link_text'>Устройства</span></div>
+                                    to="devices" _id="devices"><div className='flex_row'><h4><i className="bi bi-device-ssd"></i></h4><span className='link_text'>Устройства</span></div>
                                 </NavLink>
                             </li>
                         </ul>

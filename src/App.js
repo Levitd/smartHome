@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="devices" element={<Devices />} />
-          <Route path="device/:id" element={<Device />} />
+          <Route path="device/:_id" element={<Device />} />
           <Route path="login" element={<Login />} />
         </Routes>
       </div>

@@ -33,7 +33,7 @@ h6 {
 
 ._h4 {
   color: #055160;
-  font-size: 24px;
+  font-size: 1.25rem;
   font-weight: 500;
   padding: 2%;
 }
@@ -98,19 +98,21 @@ h6 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
   gap: 10px;
 }
 
 .button_device {
   text-decoration: none;
+  color: #191616;
 }
 
 @media screen and (max-width: 768px) {
   ._h4 {
-    font-size: 1.25rem;
+    font-size: 20px;
   }
   ._h6 {
-    font-size: 0.8rem;
+    font-size: 16px;
   }
   .app {
     position: fixed;
@@ -119,5 +121,13 @@ h6 {
   }
   .link_text {
     display: none;
+  }
+  .flex_devices {
+    flex-direction: column;
+    padding-bottom: 60px;
+  }
+  .button_device,
+  .button_device_item {
+    width: 100%;
   }
 }/*# sourceMappingURL=index.css.map */
