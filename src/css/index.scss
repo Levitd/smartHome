@@ -36,6 +36,21 @@ $bg-color-body: #e3f2fd;
 $max-width-site: 1024px;
 $bg-page_link: #cff4fc;
 $media_mobile_with: 768px;
+$color_text_header_page: #055160;
+
+._h4 {
+  color: $color_text_header_page;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 2%;
+}
+
+._h6 {
+  color: $color_text_header_page;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 2%;
+}
 
 .page_link {
   width: 100vw;
@@ -47,7 +62,8 @@ $media_mobile_with: 768px;
 .main,
 .devices,
 .device,
-.login {
+.login,
+.loading {
   max-width: $max-width-site;
   margin: 0 auto;
   padding-left: 1%;

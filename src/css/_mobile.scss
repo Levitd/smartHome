@@ -1,6 +1,10 @@
 @media screen and (max-width: $media_mobile_with) {
-    .h4 {
+    ._h4 {
         font-size: calc(1.25rem);
+    }
+
+    ._h6 {
+        font-size: calc(.8rem);
     }
 
     .app {

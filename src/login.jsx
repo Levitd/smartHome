@@ -5,9 +5,7 @@ const Login = () => {
     // activeLink(".nav-link", "login");
     return (
         <div className='login'>
-            <h4>
-                <div className='alert alert-info'>Войти или зарегистрироваться</div>
-            </h4>
+            <div className='_h4'>Войти или зарегистрироваться</div>
         </div>
     );
 }
